@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} 
+
+body {
+    max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 119px;
+}
+/*-----navigation section----*/
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+/*-----Main section---*/
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  font-family: "Poppins";
+  margin-right: 450px;
+}
+
+.list-item a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-button {
+  background-color: #5955b3;
+  padding: 8px 12px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  align-items: center;
+}
+
+.main-button {
+  background-color: #5955b3;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-style: normal;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+main div h1 {
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+main div h1 span {
+  color: #5955b3;
+  font-weight: 900;
+  font-size: 65px;
+}
+
+main div p {
+  margin-bottom: 40px;
+}
+.list li a:hover {
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+.nav-button:hover,.main-button:hover {
+  background-color: #5edfdf;
+  color: black;
+}
+
+/* .main-button:hover {
+  background-color: #5edfdf;
+  color: black;
+} */
+
